@@ -1,0 +1,219 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #63A2A6;
+}
+
+.page-container{
+    height: 100vh;
+    display: flex;
+    box-sizing: border-box;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hidden {
+    display: none;
+}
+
+.messageSuccess{
+    font-family: "Roboto", sans-serif;
+    color: #03412A;
+}
+
+.page-container header{
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-container header img{
+    padding: 5px;
+}
+
+/* Add a Patient Form Styles */
+
+.page-body-form{
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px 0 20px;
+}
+
+.page-body-form h1{
+    font-size: 25px;
+}
+.page-body-form-label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.page-body-form-input{
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: inherit;
+    padding: 10px;
+    border: solid .5px black;
+}
+.page-body-form-input::placeholder{
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    color: black;
+}
+.page-body-form-input:focus, .page-body-form-input:focus-within, .page-body-form-input:focus-within, .page-body-form-submit:focus, .page-body-form-submit:focus.page-body-form-input:focus-within{
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border: white .5px solid;
+}
+
+.page-body-form-submit {
+    background-color: #03412A;
+    padding: 10px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.bottom-nav nav{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bottom-nav a {
+    text-decoration: none;
+    text-align: center;
+    color: rgba( 266,266,266,.3);
+    font-size: 38px;
+}
+.bottom-nav a.active{
+    color: rgba(266, 266, 266, 1)
+}
+
+/* Add a Date Styles */
+
+.choose-a-date{
+    appearance: none;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0;
+    padding-left: 5px;
+    background-color: inherit;
+    border: 0;
+    border: solid 0.5px #03412A;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+.choose-a-date-div {
+    margin-bottom: 10px;
+}
+
+.choose-a-date::-ms-expand, .choose-a-date:focus{
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border: white .5px solid;
+}
+
+.choose-a-date:hover{
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border: white .5px solid;
+}
+.choose-a-date:focus{
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border: white .5px solid;
+}
+.choose-a-date:active{
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border: white .5px solid;
+}
+
+.page-body{
+}
+
+.no-dates{
+    font-family: "Roboto", sans-serif;
+    color: red;
+}
+
+.ancle{
+    display: block;
+    margin: auto;
+    background-color: #03412A;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.date{
+    border: solid black .8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.delete-i{
+    font-size: 36px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.details{
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #0C4832;
+}
+
+.name{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    display: inline;
+}
+
+.age{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    display: inline;
+    font-weight: 500;
+}
+
+.date-details{
+    color: #0055A3;
+    font-weight: 300;
+}

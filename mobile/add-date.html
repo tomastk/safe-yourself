@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safe Yourself</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="shortcut icon" href="../img/LogoMakr_1imXsJ.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">        
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/mobile-styles.css">
+</head>
+<body>
+
+    <div class="page-container">
+
+        <header>
+            <img src="../img/LogoMakr_3BcHSA.png" alt="Logo of SafeYourself">
+        </header>
+
+        <form class="page-body-form" id="date-form" autocomplete="off">
+            <h1>Add a Date</h1>
+            <label for="name" class="page-body-form-label">Chosee a Patient</label>
+
+            <div class="choose-a-date-div">
+                <select class="choose-a-date" id="patient">
+                </select>
+            </div>
+
+            <label class="page-body-form-label">Choose a Date</label>
+            <input type="date" placeholder="Add a Age" class="page-body-form-input" id="date"/>
+            <label class="page-body-form-label">Add a reasons</label>
+            <input type="text" placeholder="Add a Reason" class="page-body-form-input" id="reason"/>
+            <input type="submit" value="Submit" class="page-body-form-submit" />
+        </form>
+
+        <div class="bottom-nav">
+
+            <nav>
+
+                <a href="add-patient.html"><i class="fas fa-plus-circle"></i></a>
+                <a href="add-date.html" class="active"><i class="fas fa-calendar-plus"></i></a>
+                <a href="view-dates.html"><i class="fas fa-eye"></i></a>
+
+            </nav>
+
+        </div>
+
+    </div>
+
+
+    <script src="../js/scripts.js"></script>
+</body>
+</html>
