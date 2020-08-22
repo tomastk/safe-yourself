@@ -18,7 +18,7 @@ if (window.location.pathname.includes("mobile") === false) {
   }
   
   if (isMobile.any() != null) {
-      document.location = "/mobile/add-patient.html"
+      document.location = "https://tomastk.github.io/safe-yourself//mobile/add-patient.html"
   }
   
 }
