@@ -22,7 +22,7 @@ if (window.location.pathname.includes("mobile") === false) {
   }
   
 }
-if (window.location.pathname === "/safe-yourself//pages/add-patient.html" || window.location.pathname === "/safe-yourself//mobile/add-patient.html") {
+if (window.location.pathname === "/safe-yourself/pages/add-patient.html" || window.location.pathname === "/safe-yourself//mobile/add-patient.html") {
   /* Add a Patient Scripts */
   class Patient {
     constructor(name, age, disease) {
@@ -77,7 +77,7 @@ function addMessage(place, message) {
   }, 1000);
 }
 
-if (window.location.pathname === "/safe-yourself//pages/add-date.html" || window.location.pathname === "/safe-yourself//mobile/add-date.html") {
+if (window.location.pathname === "/safe-yourself/pages/add-date.html" || window.location.pathname === "/safe-yourself//mobile/add-date.html") {
   /* Add a Date Code */
 
   let patientSelect = document.querySelector(".choose-a-date");
