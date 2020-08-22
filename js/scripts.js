@@ -22,7 +22,7 @@ if (window.location.pathname.includes("mobile") === false) {
   }
   
 }
-if (window.location.pathname === "/pages/add-patient.html" || window.location.pathname === "/mobile/add-patient.html") {
+if (window.location.pathname === "/safe-yourself/pages/add-patient.html" || window.location.pathname === "/safe-yourself/mobile/add-patient.html") {
   /* Add a Patient Scripts */
   class Patient {
     constructor(name, age, disease) {
@@ -77,7 +77,7 @@ function addMessage(place, message) {
   }, 1000);
 }
 
-if (window.location.pathname === "/pages/add-date.html" || window.location.pathname === "/mobile/add-date.html") {
+if (window.location.pathname === "/safe-yourself/pages/add-date.html" || window.location.pathname === "/safe-yourself/mobile/add-date.html") {
   /* Add a Date Code */
 
   let patientSelect = document.querySelector(".choose-a-date");
@@ -148,7 +148,7 @@ if (window.location.pathname === "/pages/add-date.html" || window.location.pathn
 
 /* View Dates Page Scripts */
 
-if (window.location.pathname === "/pages/view-dates.html" || window.location.pathname === "/mobile/view-dates.html") {
+if (window.location.pathname === "/safe-yourself/pages/view-dates.html" || window.location.pathname === "/safe-yourself/mobile/view-dates.html") {
   document.addEventListener("DOMContentLoaded", loadDates);
 
   console.log(localStorage.getItem("dates"))
